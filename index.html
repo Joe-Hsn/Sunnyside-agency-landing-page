@@ -1,3 +1,4 @@
+<!-- Edit alt attribute's values -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,21 +7,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Sunnyside agency landing page</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <nav class="navbar navbar-expand-lg bg-Light-cyan">
-      <div class="container-fluid">
-        <div class="navbar-brand">
+    <nav class="navbar navbar-expand-md navbar-dark bg-Light-cyan py-3 px-2">
+      <div class="container-fluid justify-content-center position-relative">
+        <div class="navbar-brand me-auto">
           <img src="images/logo.svg" alt="Sunnyside agency Logo">
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars fa-xl text-white"></i>
         </button>
         <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 barlow">
             <li class="nav-item">
               <a class="nav-link text-light" href="#">About</a>
             </li>
@@ -31,60 +32,104 @@
               <a class="nav-link text-light" href="#">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contact</a>
+              <a class="nav-link text-dark bg-white rounded-pill fraunces-700 text-uppercase px-3 py-2" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <header class="hero text-white text-center d-flex flex-column align-items-center pt-4 text-uppercase">
+      <div class="fraunces-900">We are creatives</div>
+      <img src="images/icon-arrow-down.svg" alt="Arrow down icon">
+    </header>
+    <section class="row flex-row-reverse">
+      <div class="col-md-6">
+        <picture>
+          <source media="(max-width: 767px)" srcset="images/mobile/image-transform.jpg">
+          <img class="img-fluid" src="images/desktop/image-transform.jpg" alt="Egg image">
+        </picture>
+      </div>
+      <div class="col-md-6">
+        <h1 class="fraunces-900">Transform your brand</h1>
+        <span>We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.</span>
+        <a href="#" class="fraunces-700 text-uppercase">Learn more</a>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-6">
+        <picture>
+          <source media="(max-width: 767px)" srcset="images/mobile/image-stand-out.jpg">
+          <img class="img-fluid" src="images/desktop/image-stand-out.jpg" alt="Egg image">
+        </picture>
+      </div>
+      <div class="col-md-6">
+        <h1 class="fraunces-900">Stand out to the right audience</h1>
+        <span>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</span>
+        <a href="#" class="fraunces-700 text-uppercase">Learn more</a>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-6 position-relative">
+        <picture>
+          <source media="(max-width: 767px)" srcset="images/mobile/image-graphic-design.jpg">
+          <img class="img-fluid" src="images/desktop/image-graphic-design.jpg" alt="Egg image">
+        </picture>
+        <div class="position-absolute bottom-0 start-0">
+          <h1 class="fraunces-900">Graphic design</h1>
+          <span>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</span>
+        </div>
+      </div>
+      <div class="col-md-6 position-relative">
+        <picture>
+          <source media="(max-width: 767px)" srcset="images/mobile/image-photography.jpg">
+          <img class="img-fluid" src="images/desktop/image-photography.jpg" alt="Egg image">
+        </picture>
+        <div class="position-absolute bottom-0 start-0">
+          <h1 class="fraunces-900">Photography</h1>
+          <span>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</span>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      Client testimonials
     
+      We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+      Emily R.
+      Marketing Director
     
+      Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
+      Thomas S.
+      Chief Operating Officer
     
-    
-  
-    We are creatives
-  
-    Transform your brand
-  
-    We are a full-service creative agency specializing in helping brands grow fast. 
-    Engage your clients through compelling visuals that do most of the marketing for you.
-  
-    Learn more
-  
-    Stand out to the right audience
-  
-    Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places. 
-  
-    Learn more
-  
-    Graphic design
-    Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.
-  
-    Photography
-    Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-  
-    Client testimonials
-  
-    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-    Emily R.
-    Marketing Director
-  
-    Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
-    Thomas S.
-    Chief Operating Officer
-  
-    Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-    Jennie F.
-    Business Owner
-  
-    About
-    Services
-    Projects
-    Contact
-    <div class="exclamation">
+      Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+      Jennie F.
+      Business Owner
+    </section>
+    <section class="gallery row">
+
+    </section>
+    <footer>
+      About
+      Services
+      Projects
+      Contact
+    </footer>
+    <button class="exclamation bg-success rounded-circle">
       <i class="fa-solid fa-exclamation"></i>
-    </div>
+    </button>
   </main>
-  <script src="bootstrap.min.js"></script>
+  <!-- <script src="bootstrap.min.js"></script> -->
+  <script>
+    let menu_btn = document.querySelector(".navbar-toggler"),
+        menu_list = document.querySelector("#menu");
+    menu_btn.addEventListener('click', (param) => {
+    if (!menu_list.classList.contains('show')) {
+      menu_list.classList.add('show', 'd-flex');
+    } else {
+      menu_list.classList.remove('show', 'd-flex');
+    }
+    });
+  </script>
 </body>
 </html>
