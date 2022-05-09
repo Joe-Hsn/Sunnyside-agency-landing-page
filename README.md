@@ -24,11 +24,11 @@
 
 ### Ipad Preview
 
-![Ipad Preview.png](images%5Cipad%20preview.png)
+![Ipad Preview.png](images/ipad%20preview.png)
 
 ### Mobile Preview
 
-![Mobile Preview.png](images%5Cmobile%20preview.png)
+![Mobile Preview.png](images/mobile%20preview.png)
 
 ### Links
 
