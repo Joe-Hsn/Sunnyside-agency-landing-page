@@ -306,7 +306,7 @@ footer .nav-item a:hover {
 @media (max-width: 1024px) {
     .transform .col-md-6:last-child,
     .stand-out .col-md-6:last-child {
-        padding: 3rem !important;
+        padding: 1rem !important;
     }
     .transform .col-md-6:last-child h1,
     .stand-out .col-md-6:last-child h1 {
