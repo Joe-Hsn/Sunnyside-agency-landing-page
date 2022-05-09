@@ -1,4 +1,3 @@
-<!-- Edit alt attribute's values -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,15 +68,15 @@
         <a href="#" class="ms-md-3 text-decoration-none text-black fraunces-700 d-block text-uppercase">Learn more</a>
       </div>
     </section>
-    <section class="row">
+    <section class="graphic-design row">
       <div class="col-md-6 position-relative">
         <picture>
           <source media="(max-width: 767px)" srcset="images/mobile/image-graphic-design.jpg">
           <img class="img-fluid" src="images/desktop/image-graphic-design.jpg" alt="Egg image">
         </picture>
-        <div class="position-absolute bottom-0 start-0">
-          <h1 class="fraunces-900">Graphic design</h1>
-          <span>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</span>
+        <div class="position-absolute text-center">
+          <h1 class="fraunces-900 mb-4">Graphic design</h1>
+          <span class="barlow">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</span>
         </div>
       </div>
       <div class="col-md-6 position-relative">
@@ -85,50 +84,90 @@
           <source media="(max-width: 767px)" srcset="images/mobile/image-photography.jpg">
           <img class="img-fluid" src="images/desktop/image-photography.jpg" alt="Egg image">
         </picture>
-        <div class="position-absolute bottom-0 start-0">
-          <h1 class="fraunces-900">Photography</h1>
-          <span>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</span>
+        <div class="position-absolute text-center">
+          <h1 class="fraunces-900 mb-4">Photography</h1>
+          <span class="barlow">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</span>
         </div>
       </div>
     </section>
-    <section class="about">
-      Client testimonials
-    
-      We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-      Emily R.
-      Marketing Director
-    
-      Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
-      Thomas S.
-      Chief Operating Officer
-    
-      Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-      Jennie F.
-      Business Owner
+    <section class="about row text-center">
+      <h1 class="fraunces-900 text-uppercase text-Very-dark-grayish-blue">Client testimonials</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <img class="rounded-circle" src="images/image-emily.jpg" alt="#">
+        <span class="barlow text-Very-dark-grayish-blue">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</span>
+        <div class="fraunces-900">Emily R.<span class="d-block barlow text-bg-Dark-grayish-blue">Marketing Director</span></div>
+      </div>
+      <div class="col-md-4">
+        <img class="rounded-circle" src="images/image-thomas.jpg" alt="#">
+        <span class="barlow text-Very-dark-grayish-blue">Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</span>
+        <div class="fraunces-900">Thomas S.<span class="d-block barlow text-bg-Dark-grayish-blue">Chief Operating Officer</span></div>
+      </div>
+      <div class="col-md-4">
+        <img class="rounded-circle" src="images/image-jennie.jpg" alt="#">
+        <span class="barlow text-Very-dark-grayish-blue">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</span>
+        <div class="fraunces-900">Jennie F.<span class="d-block barlow text-bg-Dark-grayish-blue">Business Owner</span></div>
+      </div>
+    </div>
     </section>
     <section class="gallery row">
-
+      <div class="col-md-3 col-6">
+        <img class="img-fluid" src="images/mobile/image-gallery-milkbottles.jpg" alt="#">
+      </div>
+      <div class="col-md-3 col-6">
+        <img class="img-fluid" src="images/mobile/image-gallery-orange.jpg" alt="#">
+      </div>
+      <div class="col-md-3 col-6">
+        <img class="img-fluid" src="images/mobile/image-gallery-cone.jpg" alt="#">
+      </div>
+      <div class="col-md-3 col-6">
+        <img class="img-fluid" src="images/mobile/image-gallery-sugar-cubes.jpg" alt="#">
+      </div>
     </section>
-    <footer>
-      About
-      Services
-      Projects
-      Contact
+    <footer class="bg-Dark-moderate-cyan row justify-content-center py-5 px-3">
+      <img class="mb-3" src="images/cyan logo.svg" alt="logo">
+      <ul class="nav  mb-4 flex-nowrap justify-content-center barlow">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+      </ul>
+      <div class="contact">
+        <ul class="nav flex-nowrap justify-content-center barlow">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-pinterest"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
-    <button class="exclamation bg-success rounded-circle">
-      <i class="fa-solid fa-exclamation"></i>
-    </button>
   </main>
-  <!-- <script src="bootstrap.min.js"></script> -->
   <script>
     let menu_btn = document.querySelector(".navbar-toggler"),
         menu_list = document.querySelector("#menu");
-    menu_btn.addEventListener('click', (param) => {
-    if (!menu_list.classList.contains('show')) {
-      menu_list.classList.add('show', 'd-flex');
-    } else {
-      menu_list.classList.remove('show', 'd-flex');
-    }
+    menu_btn.addEventListener('click', () => {
+        menu_list.classList.toggle('d-flex')
     });
   </script>
 </body>
