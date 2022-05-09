@@ -27,8 +27,9 @@
 ![Ipad Preview.png](images/ipad%20preview.png)
 
 ### Mobile Preview
-
+<div style="width: 100%;margin:0 auto;">
 ![Mobile Preview.png](images/mobile%20preview.png)
+</div>
 
 ### Links
 
