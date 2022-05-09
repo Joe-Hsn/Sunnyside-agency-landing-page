@@ -20,7 +20,7 @@
 
 ### Preview
 
-![Preview.png](images/desktop-preview,jpg)
+![Preview.png](images/desktop-preview.jpg)
 
 ### PC Preview
 
