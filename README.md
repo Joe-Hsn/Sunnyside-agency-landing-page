@@ -32,7 +32,7 @@
 
 ### Links
 
-- [Live site](https://your-live-site-url.com)
+- [Live site](https://joe-hsn.github.io/Sunnyside-agency-landing-page/)
 
 ### Built with
 
