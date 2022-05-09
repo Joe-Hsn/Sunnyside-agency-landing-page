@@ -18,6 +18,10 @@
 
 ### Screenshot
 
+### Preview
+
+![Preview.png](images/desktop-preview,jpg)
+
 ### PC Preview
 
 ![PC Preview.png](images/pc%20preview.png)
