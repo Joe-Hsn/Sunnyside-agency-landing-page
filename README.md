@@ -7,9 +7,6 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-    - [PC Preview](#PC-Preview)
-    - [Ipad Preview](#Ipad-Preview)
-    - [Mobile Preview](#Mobile-Preview)
   - [Links](#links)
 - [Built with](#built-with)
 - [Useful resources](#useful-resources)
@@ -23,7 +20,7 @@
 
 ### PC Preview
 
-![PC Preview.png](images%5Cpc%20preview.png)
+![PC Preview.png](images/pc%20preview.png)
 
 ### Ipad Preview
 
